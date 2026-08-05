@@ -31,3 +31,21 @@ docker compose up -d
 ```
 http://localhost:8000/docs
 ```
+
+## Authentication
+
+- JWT Authentication
+- Password Hashing
+- OAuth2 Password Flow
+
+## Authorization
+
+- Role Based Access Control
+- Admin
+- Student
+
+### Protected Endpoints
+
+GET /users        -> Admin Only
+POST /users       -> Admin Only
+GET /auth/me      -> Authenticated User
